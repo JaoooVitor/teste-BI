@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <img src="euro.png" alt="Imagem" class="placeholder-image">
+        </div>
+
+        <div class="right-container">
+            <div class="content">
+                <h2>Calcular média do Euro</h2>
+
+                <form id="gradeForm">
+                    <label for="grau">Selecione o Grau:</label>
+                    <select id="grau" name="grau">
+                        <option value="1">1º Grau</option>
+                        <option value="3">3º Grau</option>
+                    </select>
+                    <br>
+                    <label for="userX">Informe o Ano:</label>
+                    <input id="userX" type="number" name="userX" value="" placeholder="Ano" required>
+                    <button type="submit">Calcular</button>
+                </form>
+
+                <div id="divPrecos"></div>
+
+                <button class="green-button"><a href="graficos.html">Gráficos</a></button>
+
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

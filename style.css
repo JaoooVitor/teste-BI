@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(4025865_17454.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    margin-left: 20px;
+}
+
+.left-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right-container {
+    flex: 1;
+    padding: 100px; 
+}
+
+.content {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    padding-right: 20px;
+    margin-left: 20px; 
+}
+
+#divPrecos {
+    margin-top: 20px;
+}
+
+.preco {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button.green-button {
+    margin-top: 10px;
+    padding: 10px 100px;
+    background-color: #21b9d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button.green-button:hover {
+    background-color: #21b9d4;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white; 
+}
+
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #21b9d4; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #21b9d4; 
+}
+
+
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
